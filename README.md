@@ -23,9 +23,20 @@ The application stores tasks in a local JSON file (`todos.json`), ensuring persi
 ## ✨ Features
 
 - ➕ Add new tasks through a web form
+
+  ![todo](screenshots/home.png)
+  
 - 📋 View all tasks in a structured UI
+
+- 
 - ✔ Mark tasks as completed or pending
+
+- ![todo](screenshots/done.png)
+- 
 - ❌ Delete tasks permanently
+
+- ![todo](screenshots/deletelearndocker.png)
+- 
 - 📊 Live task statistics (Total, Pending, Completed)
 - 💾 Persistent storage using JSON file
 - ⚡ Simple and responsive interface
@@ -44,6 +55,8 @@ The project is fully containerized to ensure consistent execution across environ
 - Exposes port `5000`
 - Runs the application using `python app.py`
 
+- ![Docker](screenshots/build.png)
+
 ### 🔹 Docker Compose
 
 Docker Compose is used to simplify deployment and manage the application as a service.
@@ -58,6 +71,7 @@ Key functionalities:
 docker compose up --build
 ````
 
+![Docker](screenshots/docker_ps.png)
 ---
 
 ## 🔧 Git & GitHub Workflow
@@ -96,6 +110,7 @@ Push to GitHub:
 git branch -M main
 git push -u origin main
 ```
+![github](screenshots/git.png)
 
 ---
 
@@ -131,9 +146,6 @@ TaskFlow demonstrates a complete development workflow combining:
 * Docker Compose orchestration
 * Git & GitHub version control
 
-```
-
----
 
 
 
