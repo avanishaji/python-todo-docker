@@ -55,7 +55,12 @@ The project is fully containerized to ensure consistent execution across environ
 - Exposes port `5000`
 - Runs the application using `python app.py`
 
-- ![Docker](screenshots/build.png)
+![Docker](screenshots/build2.png)
+
+
+
+![Docker](screenshots/build.png)
+- 
 
 ### 🔹 Docker Compose
 
